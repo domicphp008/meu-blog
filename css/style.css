@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.branco {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    background-color: #004AAD;
+    padding: 15;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #004AAD;
+    
+}
+.post {
+    margin: 10px 0 ;
+}
+
+.menu, 
+.logo {
+    padding: 10px;
+/*Link a, a:  */
+}
+.menu a, 
+.menu :visited {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+/*Link a: hover */
+
+.menu a:hover {
+    background-color: white;
+    color: #004AAD;
+}
+
+.container {
+  
+    width: 920;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.posts{
+    width: 660px;
+    float: left;
+}
+.post {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #004AAD;
+}
+.data-post {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.barra-lateral {
+    width: 340px;
+    float: right;
+}
+
+.conteudo-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3 {
+    background-color: #004AAD;
+    color: white;
+    padding: 5px;
+}
+
+.posts-destaque {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+.posts-destaque:last-child {
+    border: none;
+}
+
+
+
+
+
+.footer{
+    clear: both;
+    padding: 15px;
+}
+
+.footer p {
+    background-color: #004AAD;
+        color: white;
+        text-align: center;
+}
